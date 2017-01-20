@@ -1,5 +1,8 @@
 package com.quan.william.myapplication;
 
+import android.app.ActionBar;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -16,5 +19,7 @@ public class MainActivity extends AppCompatActivity {
         ShimmerFrameLayout container =
                 (ShimmerFrameLayout) findViewById(R.id.shimmer_view_container);
         container.startShimmerAnimation();
+
+        //ActionBar action = getActionBar();
     }
 }
